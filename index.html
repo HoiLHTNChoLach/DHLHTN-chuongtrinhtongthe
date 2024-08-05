@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 964 604 --><!--version 11.1.2.6006 --><!--type html --><!--mainFolder ./ --><!--content book -->
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>CHƯƠNG TRÌNH TỔNG THỂ</title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/browsersupport.js"></script>
+	<script src="data/js/viewer.js"></script>
+	
+	
+	<script>
+		var book = "eNqFVM1u20YQfpUFgSAXmbB+bCu6LcmVxJgiBZKyKwQBsaLWEmuaS+wu7bKmgaLnHvsAPfWaB8ixQN4jfZIOfywlgY3qQO3Oznzz883Mo6YSlTJtopnzL5++/OXOUOj/84c7R+HXz3/Wt/nXz79rPS2nOxYkvzKpTT48ahJOcDh7d6YPB6eHX783Hg3009HHniZotqtV+r3Bxye4S5oq8EKmeGQMz43+uTUakdEUk/P+1OwPTi1zPMXjM/C0p9LhMU2vmJAJz7SJEgVrxEsq5QMXW21yQ1MJsqQ/hvdHjVgRDi6jJQ6Ca8+3IsvGjjeLbPcKO7Z1lDvYIA5EEe4ZyjswxDLFBNuiBypRksVcCBYrHS1TRiVDSpSI7miS6RDaK36eYUmNdARWHPGcZUjtE4k2nN9OXodYOtgkc8+xiA9Ah0QbfRO7ZoNv0ixmaSt0PAy6zZ/tHkNwON0m2e7f3/5u1bxLEMKnpy2NCJsmCQLbsB07XEemT3AIKtd2OK/BBaOqLkOi9igJcgEwiN3TtKAKaED3HR0vIa18n7ghJDUjgGRnkgkFaTOUFXcbKAm/aW5xAbXNFKp76SWcmRd6kUt+CgFkxuv6NRjsl/8xWfrk6juTXLD7hBfyWzPLigzPu1xg/zKaE9wWGm/raiEDyLmj4la+oBu28VzvgcmSF28FQ1Cp2qyHFM0bf8/2aFMoBbWCMJrrj0nrHf7MOxBGd7wVPjsMohAb8PBDTBZeBwejLS078dxb+Uf5vnOwsN1VSI7yu7Z96xfPDeetPICH9zTTqynb6NWCCr3CuahPZfW+yBh80rLCxU6vApYrvfJgLCqX3+uVxeIOz/UibxU6tlsT70L16SZlNd8xh2HIVBdmp9OlZn73VnfNIdIlVAm9aUTuamEQ/02r5BMTOsxZ19wQCxR/LqRCGX9on1cuvsI2gDgkMrDrwmR0vK15gWIK7Zuwh2YIJeJZWrZtTtE12yDoVmhu/XUkO3RIxwjKi02ayH03KLxQkOxNmmTQdCktNzS+RbLIcy5Ui7cmQUh8YO+QYskkrAmgUHuCtSq4gnUzFfzO5HkJXXVYbjdwYaKew3pxDi/GfTwc9U+Mi2n/5AKfjU8G5vn0xBi+G1hjQgxyMQCPiWwGdwmx2FDknWiG94ApwDcXLFAw6s+LlWU1ZziOmZTJJkkTVS74lnU2T/8BVFzyoA==";
+
+		document.addEventListener("DOMContentLoaded", function() {
+			PdfViewer.checkMobileIntegration(book);
+
+			var viewerInitCallback = function(viewer) {
+				
+			};
+
+			var startupApplication = function(initViewerState) {
+				var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+				PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+			};
+
+			(function(startupFunc) {
+				if (startupFunc)
+				{
+					startupFunc(startupApplication);
+				}
+				else
+				{
+					startupApplication();
+				}
+			})();
+		});
+	</script>
+</head>
+<body></body>
+</html>
